@@ -1,0 +1,90 @@
+body{
+    background: #333333;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+
+}
+.cadre_font{
+    background-color: rgb(255, 251, 238);
+    height: 725px;
+    width: 1417px;
+    margin-left: 92px;
+    margin-right: auto;
+    margin-top: -32px;
+    position: fixed;
+}
+.texte{
+    color: #535353;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.titre {
+
+    font-size:65px;
+    width:300px;
+    color: #535353;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titre:hover{
+    color: #b11144;
+}
+
+.sous-titre{
+    color: #535353;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+}
+.box{
+    width: 170px;
+    height: 120px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    box-shadow: 0.5px 1px 1px #959595;
+
+}
+.box_1{
+
+    background-image: url("simplon.logo.png");
+    background-size: cover;
+    transition: transform 0.2s ease-in-out;
+}
+.box_2{
+
+    background-image: url("presentation_simplon.jpg");
+    background-size: cover;
+    transition: transform 0.2s ease-in-out;
+
+}
+.box:hover{
+    transform: scale(2);
+}
+#footer{
+    background-color: #565656;
+    height: 120px;
+    left: 92px;
+    right:91px;
+    bottom: 0;
+    position: absolute;
+    border-top: 2px solid #333333;
+
+}
+html{
+    height: 100%;
+}
+#texte_footer{
+    float: right;
+    margin-right: 100px;
+    margin-top: 60px;
+    color: #888888;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+
+}
